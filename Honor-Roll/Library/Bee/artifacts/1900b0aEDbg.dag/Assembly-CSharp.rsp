@@ -351,6 +351,12 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/ButtonBehavior/ButtonRedirect.cs"
 "Assets/ButtonBehavior/QuitGame.cs"
+"Assets/Classes/Decision.cs"
+"Assets/Classes/Door.cs"
+"Assets/Classes/Room.cs"
+"Assets/NavigationText.cs"
+"Assets/Singles/Navigation.cs"
+"Assets/Singles/Player.cs"
 -langversion:9.0
 
 /deterministic
