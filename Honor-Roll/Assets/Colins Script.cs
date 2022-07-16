@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ColinsScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public int five = 5;
     void Start()
     {
         
