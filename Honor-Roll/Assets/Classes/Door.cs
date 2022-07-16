@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 [System.Serializable]
 public class Door : MonoBehaviour
 {
@@ -9,13 +9,32 @@ public class Door : MonoBehaviour
     public Room room;
     public Room leadingRoom;
     public Navigation navigation;
+    public bool Locked;
+    public Button button;
     private void Start()
     {
         navigation = FindObjectOfType<Navigation>();
+        button = GetComponent<Button>();
     }
-    void Enter()
+    public void Enter()
     {
-        navigation.currentRoom = leadingRoom;
+        if(!Locked)
+        {
+            navigation.currentRoom = leadingRoom;
+        }
+        
+    }
+    private void Update()
+    {
+        if(Locked)
+        {
+            button.interactable = false;
+        }
+        else
+        {
+            button.interactable = true;
+        }
+        
     }
 
 }

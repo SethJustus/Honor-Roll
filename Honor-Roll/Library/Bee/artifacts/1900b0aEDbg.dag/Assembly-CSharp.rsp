@@ -354,7 +354,7 @@
 "Assets/Classes/Decision.cs"
 "Assets/Classes/Door.cs"
 "Assets/Classes/Room.cs"
-"Assets/NavigationText.cs"
+"Assets/RoomCanvas.cs"
 "Assets/Singles/Navigation.cs"
 "Assets/Singles/Player.cs"
 -langversion:9.0
