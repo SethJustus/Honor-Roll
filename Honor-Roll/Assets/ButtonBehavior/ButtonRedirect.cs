@@ -16,4 +16,8 @@ public class ButtonRedirect : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+    private void Update()
+    {
+        button.onClick.AddListener (() => Navigate());
+    }
 }
