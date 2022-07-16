@@ -21,6 +21,7 @@ public class Door : MonoBehaviour
         if(!Locked)
         {
             navigation.currentRoom = leadingRoom;
+            room.HasBeenEntered = true;
         }
         
     }

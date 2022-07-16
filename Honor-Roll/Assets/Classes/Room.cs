@@ -7,9 +7,12 @@ public class Room : MonoBehaviour
 {
     public string Name;
     [HideInInspector]
-    public bool HasBeenEntered;
+    public bool HasBeenEntered = false;
     [TextArea(4, 20)]
     public string Description;
+    [TextArea(4,10)]
+    public string ShortDescription;
+
     public List<Decision> Decisions;
     public List<Door> Doors;
     public Canvas Canvas;
