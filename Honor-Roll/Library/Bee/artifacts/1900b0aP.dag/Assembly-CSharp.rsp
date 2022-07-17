@@ -306,8 +306,16 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/ButtonBehavior/ButtonRedirect.cs"
+"Assets/ButtonBehavior/DecisionButton.cs"
 "Assets/ButtonBehavior/QuitGame.cs"
-"Assets/Colins Script.cs"
+"Assets/Classes/Decision.cs"
+"Assets/Classes/Door.cs"
+"Assets/Classes/Event.cs"
+"Assets/Classes/Room.cs"
+"Assets/RoomBehavior/RoomCanvas.cs"
+"Assets/RoomBehavior/RoomText.cs"
+"Assets/Singles/Navigation.cs"
+"Assets/Singles/Player.cs"
 -langversion:9.0
 
 /deterministic

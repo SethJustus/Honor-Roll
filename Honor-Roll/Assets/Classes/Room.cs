@@ -12,12 +12,11 @@ public class Room : MonoBehaviour
     public string Description;
     [TextArea(4,10)]
     public string ShortDescription;
+    public bool hasClown;
 
-    public List<Decision> Decisions;
-    public List<Door> Doors;
-    public Canvas Canvas;
-    [SerializeField]
     private Navigation navigation;
+    public Event EventX;
+
     private void Start()
     {
         navigation = FindObjectOfType<Navigation>();
